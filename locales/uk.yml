@@ -1,0 +1,115 @@
+uk:
+  netzke:
+    form:
+      base:
+        actions:
+          edit:
+            text: Редагувати
+            tooltip: Редагувати
+          cancel:
+            text: Скасувати
+            tooltip: Скасувати редагування
+          apply:
+            text: Застосувати
+            tooltip: Застосувати зміни
+
+    grid:
+      base:
+        add_record: "Додати %{model}"
+        edit_record: "Редагувати %{model}"
+        edit_records: "Редагувати %{models}"
+
+        confirmation: Підтвердження
+        are_you_sure: Ви впевнені?
+        actions:
+          add:
+            text: Додати
+          edit:
+            text: Редагувати
+          delete:
+            text: Видалити
+            tooltip: Видалити
+          apply:
+            text: Зберегти
+          search:
+            text: Пошук
+
+    tree:
+      base:
+        actions:
+          add:
+            text: Додати
+          edit:
+            text: Редагувати
+          delete:
+            text: Видалити
+            tooltip: Видалити
+          apply:
+            text: Зберегти
+          search:
+            text: Пошук
+
+    basepack:
+      cannot_delete: "У вас недостатньо прав для видалення"
+
+      record_form_window:
+        actions:
+          ok:
+            text: Гаразд
+          cancel:
+            text: Скасувати
+
+      search_window:
+        title: Розширений пошук
+        actions:
+          search:
+            text: Пошук
+          cancel:
+            text: Скасувати
+
+      search_panel:
+        presets: Шаблони
+        equals: Дорівнює
+        greater_than: Більше ніж
+        less_than: Більше ніж
+        contains: Містить
+        matches: Співпадає
+        date_equals: "на дату"
+        before: Перед
+        after: Після
+
+      paging_form:
+        actions:
+          search:
+            text: Пошук
+            tooltip: Розширений пошук
+
+      query_builder:
+        presets: Шаблони
+        preset_saved: Шаблон успішно збережено
+        preset_deleted: Шаблон успішно видалено
+        overwrite_confirm: "Ви дійсно хочете змінити шаблон '{0}'?"
+        overwrite_confirm_title: "Зміна шаблону"
+        delete_confirm: "Ви дійсно хочете видалити шаблон '{0}'?"
+        delete_confirm_title: "Видалення шаблону"
+        actions:
+          clear_all:
+            text: Видалити все
+            tooltip: Видалити всі умови
+          reset:
+            text: Очистити
+            tooltip: Очистити всі поля
+          save_preset:
+            text: Зберегти шаблон
+            tooltip: Зберегти шаблон
+          delete_preset:
+            text: Видалити шаблон
+            tooltip: Видалити шаблон
+          apply:
+            text: Застосувати
+            tooltip: Застосувати зміни
+
+    formats:
+      date: d.m.Y
+      datetime: d.m.Y H:i:s
+      time: H:i:s

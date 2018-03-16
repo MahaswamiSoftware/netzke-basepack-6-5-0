@@ -1,0 +1,119 @@
+en:
+  netzke:
+    tree:
+      base:
+        actions:
+          add:
+            text: Add
+          edit:
+            text: Edit
+          delete:
+            text: Delete
+          apply:
+            text: Apply
+          search:
+            text: Search
+
+    grid:
+      base:
+        add_record: "Add %{model}"
+        edit_record: "Edit %{model}"
+        edit_records: "Edit %{models}"
+
+        confirmation: Confirmation
+        are_you_sure: Are you sure?
+        proceed_with_unapplied_changes: You will lose uncommitted changes - do you want to proceed?
+        actions:
+          add:
+            text: Add
+          edit:
+            text: Edit
+          delete:
+            text: Delete
+          apply:
+            text: Apply
+          search:
+            text: Search
+
+      form:
+        base:
+          actions:
+            edit:
+              text: Edit
+              tooltip: Edit
+            cancel:
+              text: Cancel
+              tooltip: Cancel editing
+            apply:
+              text: Apply
+              tooltip: Apply changes
+
+    basepack:
+      cannot_create: "You don't have permissions to create data"
+      cannot_read: "You don't have permissions to read data"
+      cannot_update: "You don't have permissions to update data"
+      cannot_delete: "You don't have permissions to delete data"
+
+      record_form_window:
+        actions:
+          ok:
+            text: OK
+          cancel:
+            text: Cancel
+
+      search_window:
+        title: Extended search
+        actions:
+          search:
+            text: Search
+          cancel:
+            text: Cancel
+
+      search_panel:
+        presets: Presets
+        equals: Equals
+        greater_than: Greater than
+        less_than: Less than
+        contains: Contains
+        matches: Matches
+        date_equals: "On"
+        before: Before
+        after: After
+        on_or_before: On or before
+        on_or_after: On or after
+
+      paging_form:
+        actions:
+          search:
+            text: Search
+            tooltip: Extended search
+
+      query_builder:
+        presets: Presets
+        preset_saved: Preset successfully saved
+        preset_deleted: Preset successfully deleted
+        overwrite_confirm: "Are you sure you want to overwrite preset '{0}'?"
+        overwrite_confirm_title: "Overwriting preset"
+        delete_confirm: "Are you sure you want to delete preset '{0}'?"
+        delete_confirm_title: "Deleting preset"
+        actions:
+          clear_all:
+            text: Clear
+            tooltip: Clear all conditions
+          reset:
+            text: Reset
+            tooltip: Reset condition values
+          save_preset:
+            text: Save
+            tooltip: Save preset
+          delete_preset:
+            text: Delete
+            tooltip: Delete preset
+          apply:
+            text: Apply
+            tooltip: Apply updated conditions
+
+    formats:
+      date: Y-m-d
+      datetime: Y-m-d H:i:s
+      time: H:i:s

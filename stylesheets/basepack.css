@@ -1,0 +1,41 @@
+/* Fix for Ext's EditableItem render problem (from http://www.extjs.com/forum/showthread.php?p=290267#post290267) */
+/*.x-menu div.x-menu-item .x-menu-item-icon {
+left: 0px;
+margin-top: 0px !important;
+position:relative;
+background-position:center center;
+}
+.ext-ie .x-menu-item-icon {
+left: -24px;
+}
+.ext-strict .x-menu-item-icon {
+left: 3px;
+}
+.ext-ie6 .x-menu-item-icon {
+left: -24px;
+}
+*/
+/* write accordion header in bold */
+.x-accordion-hd {
+  font-weight:bold;
+}
+
+/* highilght new records in grid */
+.grid-dirty-record {
+  background: #fdd;
+}
+
+/* StatusBar - fixing forgotten "!important" */
+.x-statusbar .x-status-busy {
+    padding-left: 25px !important;
+}
+
+.x-menu-item.nz-tristate-selected {
+  background-color: #E6E6E6;
+}
+
+.nz-btn-tristate {
+  margin-right: 5px;
+  border: 1px solid #d8d8d8;
+  padding-bottom: 0px;
+}
